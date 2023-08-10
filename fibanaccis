@@ -1,0 +1,24 @@
+read -p "enter the value n" n
+a=0
+b=1
+ echo -n "$a $b"
+while [[ $b -lt $n ]]
+f1=0
+f2=1
+i=0
+while [[ $i -lt $n ]]
+do
+ c=$((a + b))
+ echo -n "$c "
+
+    a=$b
+    b=$c
+done
+
+echo ""
+    echo "$f1 "
+    f3=$((f1 + f2))
+    f1=$((f2))
+    f2=$((f3))
+    ((i++))
+done
