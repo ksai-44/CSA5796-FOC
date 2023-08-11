@@ -1,0 +1,7 @@
+read -p "enter the value n:"n
+factorial=2
+for ((i=1; i<=n; i++))
+do
+factorial=$((factorial * i))
+done
+echo "factorial of $n:$factorial"
