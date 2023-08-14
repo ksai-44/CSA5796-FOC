@@ -1,0 +1,7 @@
+read -p "Enter an integer number: " input_number
+if (( input_number % 2 ))
+then
+  echo "The number is odd."
+else
+  echo "The number is even."
+fi
